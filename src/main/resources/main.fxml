@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yilnz.audiocutter.gui.GUIController">
+   <children>
+      <TextField fx:id="input1" layoutX="165.0" layoutY="63.0" />
+      <TextField fx:id="input2" layoutX="165.0" layoutY="110.0" />
+      <ChoiceBox fx:id="choice1" layoutX="107.0" layoutY="154.0" prefHeight="27.0" prefWidth="118.0" />
+      <Label layoutX="100.0" layoutY="68.0" text="输入路径" />
+      <Label layoutX="100.0" layoutY="115.0" text="输出路径" />
+      <Button layoutX="190.0" layoutY="204.0" mnemonicParsing="false" onAction="#startProcess" prefHeight="27.0" prefWidth="118.0" text="开始处理" />
+      <TextField fx:id="input3" layoutX="233.0" layoutY="154.0" prefHeight="27.0" prefWidth="76.0" />
+      <Label layoutX="319.0" layoutY="159.0" text="秒" />
+      <Button layoutX="346.0" layoutY="63.0" mnemonicParsing="false" onAction="#browseInput" text="浏览..." />
+      <Button layoutX="346.0" layoutY="110.0" mnemonicParsing="false" onAction="#browseOutput" text="浏览..." />
+   </children>
+</Pane>
